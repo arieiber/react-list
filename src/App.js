@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello-World';
 import ItemList from './ItemList';
+import CustomButton from './components/CustomButton';
+
 
 function App() {
   const [items, setItems] = useState([ 'Type a word or emoji', 'to be added', 'in this list' ]);
@@ -32,7 +34,8 @@ function App() {
         onKeyPress={handleKeyPress}
         placeholder="Add an item"
         />
-        <button onClick={addItem}>Add Item</button>
+        <CustomButton onClick={addItem}>Surprise me</CustomButton>
+
         <ItemList items={items} />
 
       </header>

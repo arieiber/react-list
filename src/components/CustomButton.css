@@ -1,0 +1,17 @@
+.custom-button {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ff9966, #b917f0);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    transition: background-image 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-image: linear-gradient(to right, #ff5e62, #ff9966);
+  }
+  
